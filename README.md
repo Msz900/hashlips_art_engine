@@ -29,6 +29,9 @@ If you are cloning the project then run this first, otherwise you can download t
 ```sh
 git clone https://github.com/HashLips/hashlips_art_engine.git
 ```
+Before you install it, please clear the cache by using:
+
+npm cache clear -f
 
 Go to the root of your folder and run this command if you have yarn installed.
 
@@ -41,6 +44,11 @@ Alternatively you can run this command if you have node installed.
 ```sh
 npm install
 ```
+After instalation, please rebuild the project, so it updateds according to your version.
+
+npm rebuild
+
+Note: Most of the missing files/modules issue will be fixed by using the reduild command.
 
 ## Usage ℹ️
 
